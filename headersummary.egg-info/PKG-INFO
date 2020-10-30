@@ -1,13 +1,13 @@
 Metadata-Version: 2.1
-Name: mag2flux
+Name: headersummary
 Version: 1.0.0
 Summary: UNKNOWN
-Home-page: https://github.com/bkornpob/mag2flux
+Home-page: https://github.com/bkornpob/headersummary
 Author: Kornpob Bhirombhakdi
 Author-email: kbhirombhakdi@stsci.edu
 License: UNKNOWN
-Description: # mag2flux
-        mag2flux converts AB magnitude to flux density (erg cm-2 s-1).
+Description: # HeaderSummary
+        HeaderSummary does retrieving information from fits files' headers. path_list provides the search paths applied by glob.glob(). For each file, astropy.io.fits.open() is used to open the file. Header info is retrieved as specified in keywords.
         
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
